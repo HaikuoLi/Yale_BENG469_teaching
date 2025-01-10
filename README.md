@@ -35,7 +35,6 @@ We will also use samtools (https://www.htslib.org/), which is a package used in 
 
 ```samtools --version```
 
-<br>
 
 #### Data downloading
 •	We will download some BAM files provided by Cusanovich and Hill, et al. (database link: https://atlas.gs.washington.edu/mouse-atac/data/).
