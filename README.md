@@ -42,11 +42,13 @@ ycrc_conda_env.sh update
 ```
 <br>
 •	No matter whether you use the Yale HPC or not, test by running these 3 commands in Python. Make sure they are all installed, and you shouldn’t see any error messages.<br>
+
 ```
 import pysam
 import collections
 import matplotlib.pyplot as plt
 ```
+
 <br>
 We will also use samtools (https://www.htslib.org/), which is a package used in the Linux Shell interface. If you are using the Yale HPC, you may simply have samtools ready to be used by this Unix command:
 
