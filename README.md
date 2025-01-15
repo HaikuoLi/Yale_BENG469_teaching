@@ -16,7 +16,7 @@ In this lab section, you will:<br>
 ### Preparation for the main task
 #### Software downloading
 Here, we will have a main lab task which is primarily based on Python.<br>
-You may run Python with the Yale HPC (recommended), or with your labtop or other resources.<br>
+You may run Python with the Yale HPC (recommended) (https://beng469.ycrc.yale.edu/), or with your labtop or other resources.<br>
 You may run Python in Jupyter Notebook (recommended) or in the Linux Shell interface.<br>
 <br>
 •	Have ```pysam``` installed in your Python.<br>
