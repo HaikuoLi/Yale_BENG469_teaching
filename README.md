@@ -19,17 +19,38 @@ Here, we will have a main lab task which is primarily based on Python.<br>
 You may run Python with the Yale HPC (recommended) (https://beng469.ycrc.yale.edu/), or with your labtop or other resources.<br>
 You may run Python in Jupyter Notebook (recommended) or in the Linux Shell interface.<br>
 <br>
-•	Have ```pysam``` installed in your Python.<br>
-•	Test by running these 3 commands in Python. Make sure they are all installed, and you shouldn’t see any error messages.<br>
+•	Have ```pysam```, ```pandas``` and ```matplotlib``` installed in your Python.<br>
+  o	If you are using the Yale HPC, load the miniconda module, create a new conda environment containing python, pysam, pandas, matplotlib and jupyter. Unix scripts provided below:<br>
+  ```
+##you must enter a computation node to do anything. So, salloc
+salloc
+
+##this command makes sure you have no modules loading now
+module purge
+
+## now let's create a new miniconda environment
+module load miniconda
+
+conda create -n atac_class python jupyter jupyterlab pysam matplotlib pandas
+#enter y when the system asks you. This takes 3-5 minutes
+
+conda activate atac_class
+#you shouldn't see any errors with this command
+
+ycrc_conda_env.sh update
+# now you can find this new miniconda environment on Yale HPC jupyter notebook
+```
+<br>
+•	No matter whether you use the Yale HPC or not, test by running these 3 commands in Python. Make sure they are all installed, and you shouldn’t see any error messages.<br>
 ```
 import pysam
 import collections
 import matplotlib.pyplot as plt
 ```
+<br>
+We will also use samtools (https://www.htslib.org/), which is a package used in the Linux Shell interface. If you are using the Yale HPC, you may simply have samtools ready to be used by this Unix command:
 
-We will also use samtools (https://www.htslib.org/), which is a package used in the Linux Shell interface. If you are using the Yale HPC, you may simply have samtools ready to be used by this Linux command:
-
-```module load SAMtools``` (the current default version is 1.21-GCC-12.2.0 on HPC)<br>
+```module load SAMtools```<br>
 
 •	If you are not using the Yale HPC, make sure samtools is installed. To check successful installation, you may run:<br>
 
