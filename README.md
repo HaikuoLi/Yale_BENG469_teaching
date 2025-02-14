@@ -64,7 +64,7 @@ We will also use samtools (https://www.htslib.org/), which is a package used in 
 <br>•	First, we will analyze the Cerebellum BAM data (Cerebellum_62216.bam). Since the original BAM file is big (2.1G), we generated a 10% downsampled subset for you (Link: https://docs.google.com/uc?export=download&id=1bubrwts2I_J-woZTVwyzlkIuyMX9_3rL). You should download this subset and upload it to your own Linux workspace.
 <br>•	Second, choose any tissue you like, other than the cerebellum, that is available in this database. Download its BAM file (Note: not the .bam.bai which is the index file) and make sure the .bam file is available in your own Linux workspace (you may use ```wget```).
 <br>•	Do some online search and learn what a SAM/BAM file is.
-<br>•	(Optional) For Python training purposes, download a small demo data from my GitHub (https://github.com/HaikuoLi/Yale_BENG469_teaching/blob/main/ATAC_meta.csv) and upload it to your workspace. You may skip this if you are good at Python already.
+<br>•	For Python training purposes, download a small demo data from my GitHub (https://github.com/HaikuoLi/Yale_BENG469_teaching/blob/main/ATAC_meta.csv) and upload it to your workspace. You may skip this if you are good at Python already.
 
 <br>
 
